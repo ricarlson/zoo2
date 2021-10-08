@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <!--
+            Portfolio Project
+            Author: Riley Carlson
+            Date: September 15, 2020
+            
+            Filename: portfolio_contact.html
+            -->
+        <meta charset= "utf-8" />
+        <meta name= "keywords" content= "portfolio" />
+        <title>Contact</title>
+    
+        <link href="normalize.css" rel="stylesheet"/>
+        <link href="main.css" rel="stylesheet"/>
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="wrap">
+        <header>
+            <Title>Riley Carlson</Title>
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "portfolio_resume.html">Resume</a></li>
+                    <li><a href = "portfolio_projects.html">Projects</a></li>
+                    <li><a href = "portfolio_contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <h1>Contact Me</h1>
+        
+        <article id="contactArt">
+           <p>Email: <a href = "mailto:recarlson@students.ntc.edu">recarlson@students.ntc.edu</a></p>
+            <p>Call: (715) 891-1315</p>
+            <p><a href="https://www.linkedin.com/in/riley-carlson-0091701b5/">LinkedIn</a></p>
+        </article>
+            
+        <div>
+            <form id="businessInfo" action=" ">
+            <fieldset id="businessInfo">
+                <legend>Business Information</legend>
+                
+                <div class="formRow error">
+                    <label for="company">Company*</label>
+                    <input id="company" type="text" required title="company name"/>
+                </div>
+                
+                <div class="formRow error">
+                    <label for="first">First Name*</label>
+                    <input id="first" type="text" required title="first name"/>
+                    <label for="last">Last Name*</label>
+                    <input id="last" type="text" required title="last name"/>
+                </div>
+                
+                <div class="formRow error">
+                    <label for="city">City</label>
+                    <input id="city" type="text" value="Wausau" title="enter city"/>
+                </div>
+                
+                <div class="formRow error">
+                    <label for="state">State</label>
+                    <input id="state" type="text" value="WI" title="enter state"/>
+                </div>
+                
+                <div class="formRow error">
+                    <label for="zip">Zip</label>
+                    <input id="zip" type="text" placeholder="nnnnn (-nnnn)" minlength="5" title="enter minimum of 5 digits"/>
+                    <small>Enter minimum of 5 digits</small>
+                </div>
+                
+                <div class="formRow error">
+                    <label for="phone">Phone</label>
+                    <input id="phone" type="text" placeholder="(nnn) nnn-nnnn" minlength="10" title="enter minimum of 10 digits"/>
+                    <small>Enter minimum of 10 digits</small>
+                </div>
+                
+                <div class="formRow error">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" required title="enter valid email"/>
+                </div>
+                
+                <div class="formRow error">
+                    <label for="commBox">Questions or Comments?</label>
+                    <textarea name="comments" id="commBox"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </fieldset>
+            </form>
+            </div>
+        
+        <footer>
+            <hr>
+            (715) 891-1315 &#8226; recarlson@students.ntc.edu
+        </footer>
+        </div>
+    </body>

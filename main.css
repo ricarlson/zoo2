@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+/*
+
+Name: Riley Carlson
+Date: 11/7/2020
+*/
+
+div#wrap{
+ width: 960px;
+align-content: center;
+}
+
+body{
+    background-color: #C3B9F0;
+    font-family: serif Georgia;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+h2{
+    color: #372570;
+}
+
+footer{
+    border: 1px solid black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    background-image: url(footer.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer > address{
+    font-size: 0.75em;
+}
+
+section > aside{
+    border: 1px solid black;
+    border-radius: 20px;
+    float: left;
+    position: absolute;
+    height: 300px;
+    width: 200px;
+}
+aside h2{
+    text-align: center;
+}
+aside ul.asideText{
+    text-align: center;
+    font-size: 0.75em;
+    font-style: italic;
+    color: #375482;
+    padding: 20px;
+    list-style-type: square;
+}
+
+div#center{
+    display: block;
+    align-content: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+a:hover {
+  background-color: #111;
+}
+a:active{
+    color: #9C91BD;
+}
+
+a:visited{
+    color: #5D5670;
+}
+
+table th, td{
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+}
+
+div#projectsContact{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+table#home{
+    border: 1px solid black;
+    border-collapse: collapse;
+     width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+article#contactArt{
+    text-align: center;
+}
+article#resume{
+    text-align: center;
+}
+
+section {
+    color: #375482;
+}
+
+div.article{
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+img{
+    width:175px;
+    align-content: center;
+}
+
+/*Form styles*/
+textarea {
+    margin-top: 10px;
+    height: 100px;
+    width: 30%
+}
+
+div.formRow {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+}
+
+legend, label{
+    padding: 5px;
+}
+
+/*Projects styles*/
+section.projects > div{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    align-content: center;
+}
+section.projects h2{
+    margin: auto;
+    padding: 20px;
+}
+section.projects img{
+    margin: 30px;
+    min-width: 650px;
+}
+section.projects p{
+    font-size: 1.2 em;
+    margin: 10px;
+    max-width: 450px;
+}
+
+.colorButton{
+    margin: 50px auto;
+}
